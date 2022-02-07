@@ -3,7 +3,6 @@ import React, {useEffect, useState} from 'react'
 //importing axios package
 import axios from 'axios'
 import './App.css';
-import { model } from 'mongoose';
 
 function App() {
   const [guitars, setGuitars] = useState([]);
